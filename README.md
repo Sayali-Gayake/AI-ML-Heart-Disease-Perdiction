@@ -1,5 +1,3 @@
-# AI-ML-Heart-Disease-Perdiction
-
 # Heart Disease Prediction using Machine Learning
 
 ## Overview
@@ -11,7 +9,6 @@ This project is useful for doctors, healthcare professionals, and individuals to
 - **Accurate disease prediction** using advanced machine learning algorithms
 - **Data preprocessing and feature selection** for optimal model performance
 - **Multiple machine learning models** compared to find the best approach
-- **Web-based user interface** (optional) for easy access to predictions
 - **Integration with medical datasets** for real-world application
 - **Scalability** for future enhancements and additional features
 
@@ -20,8 +17,6 @@ This project is useful for doctors, healthcare professionals, and individuals to
 - **Machine Learning Algorithms**: Logistic Regression, Random Forest, Decision Trees, XGBoost, Neural Networks
 - **Data Handling & Processing**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
-- **Model Deployment**: Flask (for API), Streamlit (for UI)
-- **Database**: SQLite or PostgreSQL (optional for storing patient data)
 - **Medical Dataset**: Public datasets like UCI Heart Disease dataset
 
 ## Column Description
@@ -92,49 +87,9 @@ To assess model performance, various evaluation metrics are used:
 - **Confusion Matrix**
 - **ROC-AUC Score**
 
-## Web Application (Optional)
-To enhance usability, the model can be deployed as a web application using **Flask** or **Streamlit**, allowing users to enter medical details and get an estimated prediction instantly.
-
-### Steps to Deploy
-1. **Train the machine learning model** and save it using `joblib` or `pickle`
-2. **Create a Flask API** that accepts patient data and returns the prediction
-3. **Build a front-end UI** with Streamlit or React for user interaction
-4. **Deploy the application** on **Heroku, AWS, or Google Cloud**
-
-## Installation & Setup
-### Prerequisites
-- Python 3.x installed
-- Jupyter Notebook (for model training)
-- Libraries: Pandas, NumPy, Scikit-learn, Flask/Streamlit
-
-### Steps to Run the Project
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/heart-disease-prediction.git
-   cd heart-disease-prediction
-   ```
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the Model Training Script**
-   ```bash
-   python train_model.py
-   ```
-4. **Run the Web Application** (if included)
-   ```bash
-   streamlit run app.py
-   ```
-5. **Test API (if using Flask)**
-   ```bash
-   python app.py
-   ```
-
 ## Future Enhancements
 - **Integration with wearable health devices** for real-time monitoring
 - **Deep learning-based disease risk estimation** using CNNs/RNNs
 - **Mobile application** for instant heart disease assessment
 - **Advanced predictive analytics** using time-series patient data
 
-## License
-This project is Owned by ©Bishal Bhati. Feel free to contribute and Improve it.
